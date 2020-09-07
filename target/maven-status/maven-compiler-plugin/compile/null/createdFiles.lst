@@ -1,3 +1,4 @@
+org/casperdaris/controller/BubbleSortController.class
+org/casperdaris/Main.class
 module-info.class
-org/casperdaris/SystemInfo.class
-org/casperdaris/App.class
+org/casperdaris/view/BubbleSortView.class
