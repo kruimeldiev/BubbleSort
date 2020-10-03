@@ -2,11 +2,8 @@ package org.casperdaris;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
-import javafx.scene.control.Label;
 import javafx.scene.layout.GridPane;
-import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
-import org.casperdaris.controller.BubbleSortController;
 import org.casperdaris.view.BubbleSortView;
 
 /**

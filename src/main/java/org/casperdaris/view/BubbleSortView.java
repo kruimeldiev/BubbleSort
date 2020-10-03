@@ -41,6 +41,9 @@ public class BubbleSortView {
         });
 
         alleUitvoerenKnop = new Button("Voltooien");
+        alleUitvoerenKnop.setOnAction(event -> {
+            BubbleSortController.SorteerAlles(BubbleSortController.intLijst);
+        });
 
         view.setPrefSize(360, 240);
         view.add(invoerVeld, 0, 0);

@@ -23,6 +23,20 @@ public class BubbleSortController {
         System.out.println(Arrays.toString(intLijst.toArray()));
     }
 
+    public static void SorteerAlles(ArrayList<Integer> list) {
+        boolean gesorteerd = false;
+        while(!gesorteerd) {
+            gesorteerd = true;
+            for (int i = 0; i <list.size() - 1; i++) {
+                if (list.get(i) > list.get(i + 1)) {
+                    Wissel(list, i, i + 1);
+                    gesorteerd = false;
+                    System.out.println(Arrays.toString(intLijst.toArray()));
+                }
+            }
+        }
+    }
+
     // Deze functie verwisseld simpelweg twee Integers in een Array
     public static void Wissel(ArrayList<Integer> list, int i, int j) {
         int temp = list.get(i);
